@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang=""en>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>SURVEY FORM</title>
+    
 </head>
 <body>
     <h1>Survey Form</h1>
@@ -11,24 +12,26 @@
         <fieldset>
             <legend>Basket Ball Survey Form</legend>
             <section>
-                <label for="firstname">First Name <input type="text" placeholder="John" id="firstname"></label><br>
-                <label for="lastname">Last Name <input type="text" placeholder="doe" id="lastname"></label><br>
-                <label for="surveyentrypin">Survey Entry Pin <input type="text" placeholder="XXXX" id="surveyentrypin"></label>
-            </section>
-            <section>
-                <p>Gender</p>
-                <label for="male"><input type="radio" id="male" name="gender"> Male</label><br>
-                <label for="female"><input type="radio" id="female" name="gender"> Female</label>
-            </section>
-            <section>
-                <p>Hobbies:</p>
-                <label for="reading"><input type="checkbox" id="reading"> Reading</label><br>
-                <label for="writing"><input type="checkbox" id="writing"> Writing</label><br>
-                <label for="swimming"><input type="checkbox" id="swimming"> Swimming</label>
-            </section>
-            <section>
-                <input type="submit" value="submit">
-                <input type="reset" value="reset">
+                <div>
+                    <label for="firstname">First Name <input type="text" placeholder="John" id="firstname"></label><br>
+                    <label for="lastname">Last Name <input type="text" placeholder="doe" id="lastname"></label><br>
+                    <label for="surveyentrypin">Survey Entry Pin <input type="password" placeholder="XXXX" id="surveyentrypin"></label>
+                </div>
+                <div>
+                    <p>Gender</p>
+                    <label for="male"><input type="radio" id="male" name="gender"> Male</label><br>
+                    <label for="female"><input type="radio" id="female" name="gender"> Female</label>
+                </div>
+                <div>
+                    <p>Hobbies:</p>
+                    <label for="reading"><input type="checkbox" id="reading"> Reading</label><br>
+                    <label for="writing"><input type="checkbox" id="writing"> Writing</label><br>
+                    <label for="swimming"><input type="checkbox" id="swimming"> Swimming</label>
+                </div>
+                <div>
+                    <input type="submit" value="submit">
+                    <input type="reset" value="reset">
+                </div>
             </section>
         </fieldset>
     </form>
